@@ -1,0 +1,76 @@
+.split-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-pane {
+  padding: 1rem;
+  overflow-y: auto;
+  background-color: #f7f7f7;
+  border-right: 1px solid #ddd;
+}
+
+.right-pane {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #ffffff;
+  overflow-y: auto;
+}
+
+.actions {
+  margin-top: 1rem;
+  display: flex;
+  gap: 12px;
+}
+
+.actions button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.actions button:hover {
+  background-color: #0056b3;
+}
+
+.submission-result {
+  margin-top: 1rem;
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #444;
+  font-size: 0.95rem;
+  white-space: pre-wrap;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.difficulty {
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-left: 10px;
+  text-transform: capitalize;
+}
+
+.difficulty.easy {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.difficulty.medium {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.difficulty.hard {
+  background-color: #f8d7da;
+  color: #721c24;
+}

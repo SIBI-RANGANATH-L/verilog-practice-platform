@@ -1,0 +1,14 @@
+.header {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  padding: 15px 30px;
+  text-align:center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
