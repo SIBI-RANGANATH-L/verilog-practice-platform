@@ -25,16 +25,16 @@ Coming soon...
 
 
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
-### 🖥️ Frontend – `verilog-ui/`
+###  Frontend – `verilog-ui/`
 - React
 - CSS
 - Axios
 - Monaco Editor 
 
 
-### 🔧 Backend – `verilog_backend/`
+###  Backend – `verilog_backend/`
 - Java
 - Spring Boot
 - REST API
